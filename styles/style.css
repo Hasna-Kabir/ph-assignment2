@@ -1,0 +1,44 @@
+:root{
+    --primary-color: #FF5400;
+    --text-bold: #131318;
+    --text-normal: #5A5A5D;
+}
+body{
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+}
+.orange{
+    color: var(--primary-color);
+}
+.title-fonts{
+    font-size: 30px;
+}
+.regular-fonts{
+    font-size: 12px;
+}
+
+/* nav-bar */
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2%;
+    margin: 1% 3%;
+}
+.nav-title{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+.nav ul a{
+    text-decoration: none;
+    color: #424247;
+}
+.nav li{
+    list-style: none;
+}
+.nav-contents{
+    display: flex;
+    gap: 30px;
+}
