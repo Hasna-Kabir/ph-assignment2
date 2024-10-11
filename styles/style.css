@@ -105,18 +105,34 @@ nav li{
     .nav-contents{
         display: none;
     }
+    .nav-title{
+        justify-content: flex-start;
+    }
     .banner-inputs{
         flex-direction: column;
         width: 80%;
         margin: 0 auto;
+        gap: 2vw;
+        padding: 2vw 0;
     }
     .banner-inputs input, .banner-inputs select, .banner-inputs button{
-        width: 80%;
+        width: 90%;
         height: 4vw;
     }
+    .banner-title{
+        font-size: 4vw;
+        margin: 0;
+    }
+    .banner-text{
+        width: 90%;
+    }
+    .banner-text p{
+        width: 100%;
+        font-size: 2vw;
+        margin: 0;
+    }
     .banner-img img{
-        height: 50vw;
-        width: fit-content;
+        height: 55vw;
     }
 }
 @media screen and (min-width: 600.1px) and (max-width:991.9px) {
