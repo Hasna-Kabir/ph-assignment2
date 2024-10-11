@@ -94,6 +94,55 @@ nav li{
     font-size: 4vw;
 }
 
+/* Tour Section */
+.tours{
+    display: flex;
+    padding: 1% 5%;
+    gap: 5%;
+}
+.tour-text button{
+    padding: 2% 5%;
+    border: none;
+    border-radius: 5px;
+    font-weight: 600;
+}
+.tour-img img{
+    width: 40vw;
+}
+/* destination section */
+.destination{
+    padding: 1% 5%;
+}
+.destination-img img{
+    width: 100%;
+}
+.destination-text{
+    text-align: center;
+}
+.destination-text p{
+    width: 60%;
+    margin: 0 auto 3vw;
+}
+.destination-img{
+    color: white;
+}
+.row-1-1, .row-1-2, .row-2-1, .row-2-2, .row-2-3, .row-3-1, .row-3-2{
+    position: relative;
+} 
+.centered{
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.row-1, .row-2, .row-3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1%;
+    margin: 0 0 0.5% 0;
+}
+
 /* Responsive Layout */
 @media screen and (min-width:992px) and (max-width:1440px) {
     .dropdown{
@@ -102,6 +151,9 @@ nav li{
     
 }
 @media screen and (max-width: 600px) {
+    .regular-fonts{
+        font-size: 2vw;
+    }
     .nav-contents{
         display: none;
     }
@@ -133,6 +185,20 @@ nav li{
     }
     .banner-img img{
         height: 55vw;
+    }
+    .tours{
+        flex-direction: column;
+        gap: 3vw;
+    }
+    .tour-img img{
+        width: 100%;
+    }
+    .row-1, .row-2, .row-3{
+        flex-direction: column;
+    }
+    .row-1 img, .row-2 img, .row-3 img{
+        width: 90vw;
+        height: 50vw;
     }
 }
 @media screen and (min-width: 600.1px) and (max-width:991.9px) {
