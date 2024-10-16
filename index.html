@@ -27,9 +27,13 @@
                 </ul>
             </div>
         </nav>
-        <!--
         <nav class="dropdown">
-            <input type="checkbox" name="" id="">
+            <input type="checkbox" name="" id="toggle">
+            <label for="toggle" class="hamburger">
+                <div class="top"></div>
+                <div class="mid"></div>
+                <div class="bottom"></div>
+            </label>
             <nav>
                 <ul class="nav-contents-mini">
                     <li><a href="">Home</a></li>
@@ -40,13 +44,12 @@
                 </ul>
             </nav>
         </nav>
-        -->
         <section class="banner">
             <div class="banner-img">
                 <img src="Images/Group 13 (1) (1).png" alt="" width="100%" style="filter: brightness(60%);">
                 <div class="banner-text">
                     <h1 class="banner-title">Explore Your Travel</h1>
-                    <p style="width: 80%; margin: 0 auto 5%;" class="regular-fonts">Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque nam ratione aut molestiae delectus saepe eveniet laboriosam asperiores ullam quas.</p>
+                    <p class="regular-fonts" style="width: 80%; margin: 0 auto 5%;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque nam ratione aut molestiae delectus saepe eveniet laboriosam asperiores ullam quas.</p>
                     <div class="banner-inputs">
                         <input type="text" name="" id="" placeholder="Where" class="regular-fonts">
                         <input type="text" name="" id="" placeholder="When" onfocus="(this.type = 'date')" class="regular-fonts">
@@ -62,8 +65,9 @@
                     </div>
                 </div>
             </div>
-            
         </section>
+    </header>
+    <main>
         <section class="tours">
             <div class="tour-text">
                 <h1 class="title-fonts">Our Popular Tours</h1>
@@ -130,12 +134,141 @@
                 </div>
             </div>
         </section>
-    </header>
-    <main>
-
+        <section class="why">
+            <div class="why-text">
+                <h1 class="title-fonts">Why Choose Us</h1>
+                <p class="regular-fonts">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Autem esse quas laudantium deserunt reiciendis eligendi eius, eveniet debitis sequi dicta!</p>
+            </div>
+            <div class="why-cards">
+                <div class="cards" id="card1">
+                    <img src="Images/hotel_6030435.png" alt="">
+                    <h2>Handpicked Hotels</h2>
+                    <p class="regular-fonts">Lorem, ipsum dolor sit amet consectetur adipisicing elit. In placeat labore recusandae. Commodi officia consectetur, iste voluptates delectus perferendis ad eum quae similique exercitationem earum maxime nobis molestias aut soluta.</p>
+                </div>
+                <div class="cards">
+                    <img src="Images/travel_10913658.png" alt="">
+                    <h2>World Class Service</h2>
+                    <p class="regular-fonts">Lorem, ipsum dolor sit amet consectetur adipisicing elit. In placeat labore recusandae. Commodi officia consectetur, iste voluptates delectus perferendis ad eum quae similique exercitationem earum maxime nobis molestias aut soluta.</p>
+                </div>
+                <div class="cards" id="card3">
+                    <img src="Images/pricing_9727463.png" alt="">
+                    <h2>Best Price Guarantee</h2>
+                    <p class="regular-fonts">Lorem, ipsum dolor sit amet consectetur adipisicing elit. In placeat labore recusandae. Commodi officia consectetur, iste voluptates delectus perferendis ad eum quae similique exercitationem earum maxime nobis molestias aut soluta.</p>
+                </div>
+            </div>
+        </section>
+        <section class="deals">
+            <div class="deal-text">
+                <h1 class="title-fonts">Deals and Discounts</h1>
+                <p class="regular-fonts">Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat fuga explicabo harum aliquid autem enim dignissimos dolor debitis, exercitationem aperiam!</p>
+            </div>
+            <div class="deal-img">
+                <div class="d-img">
+                    <img src="Images/Group 39.png" alt="" width="100%">
+                    <div class="deal-card">
+                        <div class="deal-icons orange regular-fonts">
+                            <div><i class="fa-solid fa-clock"></i><span> 7 days/ 6 nights</span></div>
+                            <div><i class="fa-solid fa-users"></i><span> max: 10</span></div>
+                            <div><i class="fa-solid fa-location-dot"></i><span> Malyasia</span></div>
+                        </div>
+                        <div class="deal-card-text">
+                            <h2>Tour to Satorini</h2>
+                            <p class="regular-fonts">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Error ullam harum sequi incidunt illum natus commodi labore numquam temporibus sit.</p>
+                            <h4 class="orange">Price: $1300-$1500</h4>
+                            <button class="btn-primary">Book Now</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="deal-img">
+                <div class="d-img">
+                    <img src="Images/Group 40.png" alt="" width="100%">
+                    <div class="deal-card" id="sec-card">
+                        <div class="deal-icons orange regular-fonts">
+                            <div><i class="fa-solid fa-clock"></i><span> 7 days/ 6 nights</span></div>
+                            <div><i class="fa-solid fa-users"></i><span> max: 10</span></div>
+                            <div><i class="fa-solid fa-location-dot"></i><span> Malyasia</span></div>
+                        </div>
+                        <div class="deal-card-text">
+                            <h2>Tour to Satorini</h2>
+                            <p class="regular-fonts">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Error ullam harum sequi incidunt illum natus commodi labore numquam temporibus sit.</p>
+                            <h4 class="orange">Price: $1300-$1500</h4>
+                            <button class="btn-primary">Book Now</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="deal-img">
+                <div class="d-img">
+                    <img src="Images/Group 39.png" alt="" width="100%">
+                    <div class="deal-card">
+                        <div class="deal-icons orange regular-fonts">
+                            <div><i class="fa-solid fa-clock"></i><span> 7 days/ 6 nights</span></div>
+                            <div><i class="fa-solid fa-users"></i><span> max: 10</span></div>
+                            <div><i class="fa-solid fa-location-dot"></i><span> Malyasia</span></div>
+                        </div>
+                        <div class="deal-card-text">
+                            <h2>Tour to Satorini</h2>
+                            <p class="regular-fonts">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Error ullam harum sequi incidunt illum natus commodi labore numquam temporibus sit.</p>
+                            <h4 class="orange">Price: $1300-$1500</h4>
+                            <button class="btn-primary">Book Now</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="btn"><button class="btn-primary deal-btn">See All Packages</button></div>
+        </section>
+        <section class="video">
+            <div class="video-text">
+                <h1 class="title-fonts">A Simple Perfect Place To Get Lost</h1>
+                <p class="regular-fonts">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit, tenetur.</p>
+                <p class="regular-fonts">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iure, voluptatem.</p>
+                <p class="regular-fonts">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate, hic.</p>
+                <button class="btn-primary">See More</button>
+            </div>
+            <div class="vidd">
+                <div class="vid">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/EtSHQMB0oa0?si=YaxQWhvlif59qExT" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </div>
+            </div>
+        </section>
+        <section class="newsletter">
+            <div class="news-text">
+                <h3>Newsletter</h3>
+                <p class="regular-fonts">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi.</p>
+                <hr>
+                <div class="news-inputs">
+                    <input type="text" name="" id="" placeholder="Enter your name" class="regular-fonts">
+                    <input type="email" name="" id="" placeholder="Enter your email" class="regular-fonts">
+                    <button class="btn-primary regular-fonts">Subscribe</button>
+                </div>
+            </div>
+            <div class="news-img">
+                <img src="Images/Rectangle 8 (1).png" alt="" width="100%">
+                <div class="news-card">
+                    <p>Travel.com</p>
+                    <h3>Save up to 70%</h3>
+                </div>
+            </div>
+        </section>
     </main>
     <footer>
-
+        <div class="foot-title">
+            <img src="Images/Group 40071 (2).png" alt="" height="auto" width="5%" >
+            <h2 class="title-fonts" style="display: flex; gap: 3%">Global <span class="orange">Gypsies</span></h2>
+        </div>
+        <div class="foot-text">
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequatur, at soluta repudiandae eos quas perspiciatis maxime totam suscipit modi fuga.</p>
+        </div>
+        <div class="foot-icon">
+            <i class="fa-brands fa-twitter fa-2x"></i>
+            <i class="fa-brands fa-facebook-f fa-2x"></i>
+            <i class="fa-brands fa-instagram fa-2x"></i>
+            <i class="fa-brands fa-github fa-2x"></i>
+        </div>
+        <br>
+        <hr style="color: #5A5A5D;">
+        <p><small>2017, All Rights Reserved</small></p>
     </footer>
 </body>
 </html>
