@@ -224,6 +224,72 @@ nav li{
     border: 1px solid rgba(233, 68, 68, 0.2);
     margin: 0 auto;
 }
+
+/* extra section */
+.extra{
+    padding: 2% 5%;
+}
+.extra p{
+    text-align: center;
+    width: 70%;
+    margin: 2% auto 4%;
+}
+.extra-grid{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 3% 2%;
+}
+.extra-img img{
+    width: 100%;
+    border-radius: 10px 10px 0 0;
+    height: 20vw;
+}
+.extra-btn button{
+    padding: 1% 5%;
+    border: none;
+    border-radius: 5px;
+}
+.extra-btn{
+    margin: 5vw auto 1vw;
+    text-align: center;
+}
+.extra-img{
+    border-radius: 10px;
+}
+.extra-text{
+    padding: 3%;
+}
+.extra-text button{
+    border: none;
+    padding: 2% 5%;
+    border-radius: 5px;
+    margin: 3% 0;
+}
+#paris{
+    border: 1px solid rgba(112, 38, 152, 0.2);
+    background-color: rgba(112, 38, 152, 0.05);
+}
+#egypt{
+    border: 1px solid rgba(209, 174, 93, 0.2);
+    background-color: rgba(209, 174, 93, 0.05);
+}
+#malyasia{
+    border: 1px solid rgba(42, 16, 187, 0.2);
+    background-color: rgba(42, 16, 187, 0.05);
+}
+#india{
+    border: 1px solid rgba(109, 202, 227, 0.2);
+    background-color: rgba(109, 202, 227, 0.05);
+}
+#italy{
+    border: 1px solid rgba(217, 102, 246, 0.2);
+    background-color: rgba(217, 102, 246, 0.05);
+}
+#dubai{
+    border: 1px solid rgba(27, 170, 111, 0.2);
+    background-color: rgba(27, 170, 111, 0.05);
+}
+
 /* deals section */
 .deals{
     padding: 1% 5%;
@@ -350,7 +416,7 @@ nav li{
     padding: 2%;
     border-radius: 10px;
     margin: 0 0 2%;
-    width: 50%;
+    width: 40%;
 }
 .news-inputs{
     display: flex;
@@ -514,6 +580,22 @@ footer p{
     h4{
         font-size: 3.5vw;
     }
+    .extra-grid{
+        grid-template-columns: repeat(1, 1fr);
+        gap: 1%;
+    }
+    .extra-img img{
+        height: 50vw;
+    }
+    .extra-btn{
+        margin: 30vw 0 0;
+    }
+    .extra-btn button{
+        padding: 3% 10%;
+    }
+    .deals{
+        margin-top: 10vw;
+    }
     .deal-img{
         height: 110vw;
         margin-bottom: 5%;
@@ -592,6 +674,15 @@ footer p{
     }
     .vidd, .video-text{
         width: 100%;
+    }
+    .extra-grid{
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .extra-btn{
+        margin: 10vw 0 0;
+    }
+    .deals{
+        margin-top: 5vw;
     }
 }
 @media screen and (min-width:1440.1px) {
