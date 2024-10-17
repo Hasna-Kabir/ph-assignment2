@@ -57,6 +57,27 @@ nav li{
     gap: 30px;
 }
 
+/* dropdown menu */
+.nav-contents-mini li{
+    position: relative;
+}
+.sublist-contents{
+    display: none;
+    position: absolute;
+    top: 100%;
+    right: 0;
+    z-index: 1;
+    padding: 3vw;
+    background-color: #FF5400;
+}
+.sublist-contents a{
+    color: white;
+    font-weight: 500;
+}
+.sublist:hover .sublist-contents{
+    display: block;
+}
+
 /* banner section */
 
 .banner{
@@ -411,7 +432,7 @@ footer p{
     .title-fonts{
         font-size: 5vw;
     }
-    .nav-contents{
+    .nav-big{
         display: none;
     }
     .nav-title{
@@ -458,7 +479,7 @@ footer p{
         width: 50vw;
         height: 10vw;
         font-size: 5vw;
-        margin: 0 0 3% 0;
+        margin: 3% 0 3% 0;
     }
     .tour-img img{
         width: 100%;
@@ -508,7 +529,10 @@ footer p{
         width: 50vw;
         height: 10vw;
         font-size: 5vw;
-        margin: 0 0 3% 0;
+        margin: 3% 0 3% 0;
+    }
+    .deal-card-text h2, .deal-card-text p, .deal-card-text h4{
+        margin: 2% 0;
     }
     #sec-card{
         transform: translate(-2%, 9%);
@@ -526,10 +550,13 @@ footer p{
         font-size: 5vw;
         width: 50vw;
         height: 10vw;
-        margin: 0 0 3% 0;
+        margin: 3% 0 3% 0;
     }
     .vidd, .video-text{
         width: 100%;
+    }
+    .vidd{
+        margin-bottom: 3%;
     }
     .newsletter{
         flex-direction: column;
@@ -550,7 +577,7 @@ footer p{
 
 }
 @media screen and (min-width: 600.1px) and (max-width:991.9px) {
-    .nav-contents{
+    .nav-big{
         display: none;
     }
     .video{
